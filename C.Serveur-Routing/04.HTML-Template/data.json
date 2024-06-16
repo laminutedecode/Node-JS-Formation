@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "name": "Jonathan",
+  "email": "exemple@gmail.com",
+  "age": 30,
+  "is_verified": true,
+  "hobbies": ["reading", "dev", "photography"],
+  "adress": {
+    "street": "123 rue de Paris",
+    "city": "Paris",
+    "country": "France"
+  }
+
+}

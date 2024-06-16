@@ -1,0 +1,2 @@
+
+Pour sécuriser les requêtes SQL avec Node.js, vous devez mettre en place des pratiques de sécurité qui protègent votre application contre les attaques par injection SQL. Voici quelques méthodes et exemples pour sécuriser vos requêtes SQL avec Node.js :

@@ -1,0 +1,111 @@
+/* Styles généraux pour la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles pour le tableau */
+#bookTable {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+#bookTable th, #bookTable td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#bookTable th {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+#bookTable tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+#bookTable td a {
+    color: #007bff; /* Couleur du lien */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  #bookTable td a:hover {
+    color: #dc3545; /* Couleur du lien au survol */
+  }
+
+/* Styles du pied de page */
+.footer-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Styles des boutons */
+  button {
+    background-color: #007bff; /* Couleur du bouton */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Couleur du bouton au survol */
+  }
+  
+  /* Styles du formulaire */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ced4da; /* Couleur de la bordure du champ */
+    border-radius: 4px;
+    resize: none;
+  }
+  
+  form button {
+    margin-top: 12px;
+  }
+  
+  /* Styles des formulaires de modification et d'ajout */
+  #formulaireAjout,
+  #formulaireModification {
+    display: grid;
+    place-items: center;
+    background-color: rgba(255, 255, 255, 0.95); /* Fond plus transparent */
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+
+

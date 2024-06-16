@@ -1,0 +1,17 @@
+{
+  "name": "04.scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test/*.test.js",
+    "lint": "eslint",
+    "build": "webpack --config webpack.config.js",
+    "prebuild": "echo avant",
+    "postbuild": "echo apres"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

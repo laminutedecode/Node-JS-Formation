@@ -1,0 +1,16 @@
+{
+  "client": "Nom du client",
+  "articles": [
+    {
+      "nom": "Article 1",
+      "quantite": 2,
+      "prixUnitaire": 10
+    },
+    {
+      "nom": "Article 2",
+      "quantite": 1,
+      "prixUnitaire": 20
+    }
+  ],
+  "montantTotal": 40
+}
