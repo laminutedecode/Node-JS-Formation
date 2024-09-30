@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Chat en temps réel</title>
+
+</head>
+<body>
+
+   <!-- Ajout de la modal pour entrer le pseudo -->
+   <div id="pseudoModal" class="modal">
+    <form id="pseudoForm">
+      <label for="pseudo">Entrez votre pseudo :</label>
+      <input type="text" id="pseudo" required>
+      <button type="submit">Valider</button>
+    </form>
+  </div>
+
+  <div id="chat-container">
+    <ul id="messages"></ul>
+    <!-- Modification du formulaire pour envoyer des messages -->
+    <form id="form" action="">
+      <input id="m" autocomplete="off" /><button>Envoyer</button>
+    </form>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+
+  <script src="app.js"></script>
+</body>
+</html>

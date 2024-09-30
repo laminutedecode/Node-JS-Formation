@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1>User profile</h1>
+
+  <ul>
+    <li>ID: {{id}}</li>
+    <li>Name: {{name}}</li>
+    <li>Email: {{email}}</li>
+    <li>Age: {{age}}</li>
+    <li>Is verified: {{is_verified}}</li>
+    <li>Hobbies:
+      <ul>
+        {{#each hobbies}}
+        <li>{{this}}</li>
+        {{/each}}
+
+      </ul>
+    </li>
+    <li>Adress: {{adress.street}}, {{adress.city}}, {{adress.country}}</li>
+  </ul>
+  
+</body>
+</html>

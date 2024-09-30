@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table id="bookTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nom</th>
+            <th>Stock</th>
+            <th>Code</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+        </tbody>
+      </table>
+      <div class="footer-tab"><button>Ajouter un livre</button></div>
+
+        <!-- Formulaire pour modifier un livre -->
+<div id="formulaireModification" style="display: none">
+    <form id="modificationForm">
+      <h2>Modifier le livre</h2>
+      <label for="nomLivreModif">Nom :</label>
+      <input type="text" id="nomLivreModif" name="nomLivreModif" ><br>
+      <label for="stockLivreModif">Stock :</label>
+      <input type="number" id="stockLivreModif" name="stockLivreModif" ><br>
+      <label for="codeLivreModif">Codes:</label>
+      <input type="text" id="codeLivreModif" name="codeLivreModif" ><br>
+      <label for="statusLivreModif">Status :</label>
+      <input type="text" id="statusLivreModif" name="statusLivreModif" ><br>
+      <button type="submit">Modifier</button>
+      <button class="closeButton">Annuler</button>
+    </form>
+  </div>
+  
+    <!-- Formulaire pour ajouter un livre -->
+    <div id="formulaireAjout" style="display: none;">
+      <h2>Ajouter un livre</h2>
+      <form>
+        <label for="nomLivre">Nom :</label>
+        <input type="text" id="nomLivre" name="nomLivre" ><br>
+        <label for="stockLivre">Stock :</label>
+        <input type="number" id="stockLivre" name="stockLivre" ><br>
+        <label for="codeLivre">Code :</label>
+        <input type="text" id="codeLivre" name="codeLivre" ><br>
+        <label for="statusLivre">Status :</label>
+        <input type="text" id="statusLivre" name="statusLivre" ><br>
+        <button type="submit">Ajouter</button>
+        <button class="closeButton">Annuler</button>
+  
+      </form>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

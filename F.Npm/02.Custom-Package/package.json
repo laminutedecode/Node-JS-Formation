@@ -1,0 +1,10 @@
+{
+  "name": "laminutedecode",
+  "version": "1.0.0",
+  "description": "package de la minute de code",
+  "keywords": [
+    "laminutedecode",
+    "welcome"
+  ],
+  "main": "index.js"
+}

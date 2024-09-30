@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vote App</title>
+  <link rel="stylesheet"type="text/css"  href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Votes</h1>
+    <div class="options">
+      <button id="option1" onclick="vote(1)">Option 1</button>
+      <button id="option2" onclick="vote(2)">Option 2</button>
+      <button id="option3" onclick="vote(3)">Option 3</button>
+    </div>
+    <div class="counters">
+      <div id="counter1" class="counter">Votes pour Option 1: 0</div>
+      <div id="counter2" class="counter">Votes pour Option 2: 0</div>
+      <div id="counter3" class="counter">Votes pour Option 3: 0</div>
+      <div id="totalCounter" class="counter">Total Des Votes: 0</div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
